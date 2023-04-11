@@ -1,4 +1,6 @@
 # MyApp
+Trabalho de angular CRUD de celulares, 
+Grupo: Anna Beatriz, Davyd Braz, José Luan
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
