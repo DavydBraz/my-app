@@ -1,0 +1,32 @@
+
+<h2>Celulares</h2>
+
+<table class="table">
+  <thead>
+  </thead>
+  <tbody>
+    <tr *ngFor="let celular of celulares ? celulares : []">
+      <div class="Cardizinho">
+        <div class="CelNome">
+      <td>{{ celular.nome }}</td>        
+      </div>
+      <div class="CelValor">
+      <td>{{ celular.valor | currency }}</td>
+      </div>
+      <div class="CelEspecificacao">
+      <td>{{ celular.especificacao }}</td>
+      </div>
+      <div class="CellImagem">
+      <div class="Imagem">
+      </div>
+      <td><img [src]="celular.imagem" width="100"></td>
+      </div>
+      <td>
+        <a routerLink="/celulares/{{ celular.id }}/edit" class="btn btn-primary btn-sm mr-2">Editar</a>
+        <button class="btn btn-danger btn-sm" (click)="delete(celular)">Excluir</button>
+      </td>
+    </div>
+
+    </tr>
+  </tbody>
+</table>

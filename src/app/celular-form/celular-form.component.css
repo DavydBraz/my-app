@@ -1,0 +1,35 @@
+.ContainerForms{
+    background-color: #857c7c;
+}
+.form-group {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  input[type="url"] {
+    border-radius: 4px;
+    border: 1px solid #353131;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #076bd4;
+    border-color: #0359b4;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #047cfc;
+    border-color: #007bff;
+  }

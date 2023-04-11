@@ -1,0 +1,21 @@
+<form #form="ngForm" (submit)="submit(form)">
+  <div class="ContainerForms">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" name="nome" [(ngModel)]="celular.nome" required>
+    </div>
+    <div class="form-group">
+      <label for="valor">Valor:</label>
+      <input type="number" class="form-control" id="valor" name="valor" [(ngModel)]="celular.valor" required>
+    </div>
+    <div class="form-group">
+        <label for="especificacoes">Especificações:</label>
+        <textarea class="form-control" id="especificacoes" name="especificacoes" [(ngModel)]="celular.especificacao" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="imagem">Imagem:</label>
+        <input type="url" class="form-control" id="imagem" name="imagem" [(ngModel)]="celular.imagem" required>
+      </div>
+      <button type="submit" class="btn btn-primary"(click)="getCelulares">Salvar</button>
+    </div>
+</form>

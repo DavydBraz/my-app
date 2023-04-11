@@ -1,0 +1,32 @@
+.Cardizinho {
+    background-color: #e4e2e2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 10px
+  }
+  
+  .CelNome,
+  .CelValor,
+  .CelEspecificaçao,
+  .CelImagem {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .CelNome {
+    font-weight: bold;
+  }
+  .CelImagem img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
